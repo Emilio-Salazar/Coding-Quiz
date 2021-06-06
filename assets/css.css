@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+header {
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+}
+header .score {
+    font-size: 22px;
+}
+header .timer {
+    padding-left: 30px;
+}
+.quiz-content {
+    display:flex;
+    justify-content: center;
+}
+.quiz-content .question-and-answer {
+    flex: 1;
+}
+.quiz-content .answers {
+    align-items: center;
+}
+.quiz-content .answer {
+    font-size: 25px;
+    padding: 5px 15px 5px 5px;
+    background-color: grey;
+    justify-content: center;
+}
+.quiz-content .question {
+    font-weight: bolder;
+    font-size: 44px;
+}
+.quiz-content .output {
+    border-top: black 3px;
+    padding: auto;
+}
+.output .result {
+    color: grey;
+    font-size: 22px;
+    padding: 25px;
+}
